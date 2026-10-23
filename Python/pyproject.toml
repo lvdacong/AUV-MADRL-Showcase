@@ -1,0 +1,54 @@
+[project]
+name = "auv-madrl-python"
+version = "0.1.0"
+description = "Shared modular AUV Actor training and Viewer runtime"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+  "numpy==1.23.5",
+  "orjson==3.11.9",
+  "pyyaml==6.0.3",
+  "scipy==1.15.3",
+  "tensorboard==2.20.0",
+  "tensordict==0.13.0",
+  "torch==2.13.0",
+]
+
+[dependency-groups]
+dev = [
+  "psutil==7.2.2",
+  "pytest==8.4.1",
+  "ruff==0.12.9",
+]
+
+[project.scripts]
+auv-goal-reach-train = "auv_madrl.goal_reach:train_main"
+auv-goal-reach-viewer = "auv_madrl.goal_reach:viewer_main"
+
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/auv_madrl"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"configs" = "auv_madrl/configs"
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu130" }
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

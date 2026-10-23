@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please credit lvdacong and link to the exact repository version. Citation does not grant a reuse license."
+title: "AUV-MADRL Showcase: Personal exploration of multi-vessel simulation and self-play"
+type: software
+authors:
+  - family-names: lvdacong
+repository-code: "https://github.com/lvdacong/AUV-MADRL-Showcase"
+url: "https://github.com/lvdacong/AUV-MADRL-Showcase"

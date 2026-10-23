@@ -1,0 +1,16 @@
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.agents/
+.codex/
+tmp/
+logs/
+*.log
+Artifacts/**
+!Artifacts/GoalReach/
+!Artifacts/GoalReach/20260913-103135-634244600-unified-match-seed42/
+!Artifacts/GoalReach/20260913-103135-634244600-unified-match-seed42/checkpoint-013773.pt

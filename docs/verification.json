@@ -1,0 +1,56 @@
+{
+  "validated_on": "2026-10-23",
+  "platform": "Windows",
+  "python": "3.10.19",
+  "torch": "2.13.0+cu130",
+  "dependency_install": {
+    "command": "uv sync --locked",
+    "result": "passed in a new virtual environment"
+  },
+  "model_initialization": {
+    "global_update": 13773,
+    "roles": [
+      "learner",
+      "defender",
+      "target"
+    ],
+    "parameter_groups": [
+      "attack",
+      "defense"
+    ],
+    "deployment_errors": {},
+    "result": "passed in the new repository environment"
+  },
+  "model_sha256": "d88bb46a69210b29c896778fd7a0721f04042226d1b2afffd9ad49ecb764500b",
+  "videos": {
+    "files": 6,
+    "bytes": 43342355,
+    "hashes_match_author_originals": true,
+    "full_decode": "6 passed",
+    "visual_review": "three sampled frames per recording"
+  },
+  "included_tests": {
+    "command": "uv run pytest -q",
+    "collected": 275,
+    "passed_across_runs": 271,
+    "skipped": 4,
+    "unresolved_failures": 0,
+    "execution": "147 initial passes retained; 78 packaging-related import failures rerun successfully after test-helper and psutil dependencies were included; all 46 tests in the added test-helper module also passed.",
+    "skip_scope": "Four tests need optional local recorded CPU-preparation fixtures that are not distributed.",
+    "warnings": "PyTorch TorchScript deprecation warnings remain; runtime source was preserved."
+  },
+  "source_scan": {
+    "tool": "gitleaks 8.30.1",
+    "scope": "tracked source and documentation in the fresh repository commit; media provenance checked separately",
+    "result": "no leaks found"
+  },
+  "history": {
+    "old_git_history_included": false,
+    "private_field_data_or_papers_included": false
+  },
+  "training_started_for_publication": false,
+  "limits": [
+    "This validates the packaged engineering demonstration, not policy convergence, optimality, generalization, or real-vessel performance.",
+    "Other operating systems have not been verified."
+  ]
+}

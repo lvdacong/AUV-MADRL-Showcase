@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "author": "lvdacong",
+  "order": "author-provided desktop sequence",
+  "archived_on": "2026-10-23",
+  "video_files_modified": false,
+  "audio_provenance": {
+    "source": "author confirmation",
+    "confirmed_on": "2026-10-23",
+    "scope": "all six recordings",
+    "only_bundled_viewer_music": true,
+    "other_songs_or_third_party_speech": false,
+    "composer": "Kevin MacLeod",
+    "composer_website": "https://incompetech.com/",
+    "bundled_tracks": ["Floating Cities", "Atlantean Twilight", "Crypto"],
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "per_video_track_identification": "not annotated"
+  },
+  "note": "Historical video titles are preserved exploration notes, not validated scientific claims.",
+  "videos": [
+    {
+      "order": 1,
+      "file": "docs/videos/01-多艇协同避障.mp4",
+      "source_filename": "多艇协同避障.mp4",
+      "bytes": 12941441,
+      "sha256": "ec6997421923d1cc09ae4a2b28fd93b551651272d0ab3c3b0c5aa6e2af5ab93d",
+      "duration_seconds": 51.58337,
+      "streams": [
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1214,
+          "height": 1032
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "file": "docs/videos/02-捕风捉影.mp4",
+      "source_filename": "捕风捉影.mp4",
+      "bytes": 2413200,
+      "sha256": "f00e542a5f2bdf935f12797250bd9d97448ab2fc35400550a4ebc39bad6a596e",
+      "duration_seconds": 9.056009,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1226,
+          "height": 1010
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "file": "docs/videos/03-公平攻防自博弈-DEF更高策略轮次.mp4",
+      "source_filename": "公平攻防自博弈-DEF更高策略轮次.mp4",
+      "bytes": 3667016,
+      "sha256": "b19ce6cfc9602019b222fccc4ec7eb4cff31919b97978a612b28d5c8f9b15205",
+      "duration_seconds": 18.506009,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1842,
+          "height": 1042
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "file": "docs/videos/04-ATK-DEF-自动阵型排布.mp4",
+      "source_filename": "ATK-DEF-自动阵型排布.mp4",
+      "bytes": 3975178,
+      "sha256": "b73f8d8d84c0f2477b743162b7fdac73c5f795ff15fcd07494d08b64f7ae018d",
+      "duration_seconds": 25.76745,
+      "streams": [
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1844,
+          "height": 1036
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "file": "docs/videos/05-tgt帮助def获得学习信号.mp4",
+      "source_filename": "tgt帮助def获得学习信号.mp4",
+      "bytes": 6996363,
+      "sha256": "2e1e82b85d1d17cea90992df0ac0bcafebbfb79c213b53c7809d325b0e42469c",
+      "duration_seconds": 23.29236,
+      "streams": [
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1918,
+          "height": 1138
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "file": "docs/videos/06-三角色双阵营自博弈.mp4",
+      "source_filename": "三角色双阵营自博弈.mp4",
+      "bytes": 13349157,
+      "sha256": "fc4b409284a08770d3c48d4b08f00f6e34c7ea67dfccf019fcd8bc02aeab4e89",
+      "duration_seconds": 16.045011,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1846,
+          "height": 1028
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ]
+    }
+  ]
+}
