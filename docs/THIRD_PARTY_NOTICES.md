@@ -1,18 +1,22 @@
-# 第三方素材说明
+# Third-party notices
 
-## Viewer 与录屏背景音乐
+## Viewer and recording background music
 
-以下曲目由 Kevin MacLeod（[incompetech.com](https://incompetech.com/)）创作：
+The following tracks are by Kevin MacLeod ([incompetech.com](https://incompetech.com/)):
 
 - Floating Cities
 - Atlantean Twilight
 - Crypto
 
 Licensed under Creative Commons: By Attribution 4.0 License.
-许可链接：https://creativecommons.org/licenses/by/4.0/
+License: https://creativecommons.org/licenses/by/4.0/
 
-原配乐文件及署名见 [Viewer 音乐目录](../Python/viewer/audio/ATTRIBUTION.md)。作者于 2026-10-23 确认，六段录屏均只有项目自带的上述配乐，没有其他歌曲或他人语音；此来源记录基于作者确认，未逐段标注具体曲目。视频原文件原样归档，未转码或替换音轨。根目录保留权利声明不覆盖第三方音乐，相关音乐继续适用 CC BY 4.0。
+The original music files and attribution are in the [Viewer audio directory](../Python/viewer/audio/ATTRIBUTION.md).
 
-## 软件依赖
+On October 23, 2026, the author confirmed that all six recordings contain only the bundled music listed above, with no other songs or third-party speech. This provenance statement is based on the author's confirmation; individual tracks have not been identified per recording. The original MP4 files are archived unchanged, without transcoding or audio replacement. The GIF previews contain no audio.
 
-Python、PyTorch、TensorDict、NumPy、SciPy、orjson、PyYAML、TensorBoard 等依赖按其各自分发条款使用，本仓库未将这些依赖的实现代码或安装包打包发布。依赖版本及来源保留在 `Python/pyproject.toml` 和 `Python/uv.lock`。
+The repository's reservation of rights does not cover this third-party music, which remains licensed under CC BY 4.0.
+
+## Software dependencies
+
+Python, PyTorch, TensorDict, NumPy, SciPy, orjson, PyYAML, TensorBoard, and other dependencies remain subject to their respective distribution terms. This repository does not bundle their implementation code or installation packages. Dependency versions and sources are recorded in `Python/pyproject.toml` and `Python/uv.lock`.

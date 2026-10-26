@@ -10,4 +10,5 @@
 *.lock text eol=lf
 *.pt binary
 *.mp4 binary
+*.gif binary
 *.mp3 binary

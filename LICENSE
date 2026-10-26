@@ -1,27 +1,32 @@
 Copyright (c) 2026 lvdacong. All rights reserved.
 
-本声明适用于 lvdacong 在本仓库中拥有权利的原创代码、文档、模型权重与
-展示录屏中的原创部分，不覆盖第三方库、素材、音乐或其他权利人的内容。
+This declaration applies to original code, documentation, model weights, and
+original contributions to demonstration recordings and previews for which
+lvdacong owns the relevant rights. It does not cover third-party libraries,
+assets, music, or content owned by other rights holders.
 
-本仓库用于展示个人工程探索。除适用法律允许的使用、GitHub 服务条款要求
-的浏览及平台内派生仓库功能，以及另行明确授权的范围外，作者未授予复制、
-修改、再分发、再许可、商业使用或以本项目为基础发布衍生作品的许可。
-需要复用时，请通过 https://github.com/lvdacong 联系作者取得书面授权。
+This repository presents a personal engineering exploration. This is a
+reservation of rights, not an open-source license. Except for uses permitted
+by applicable law, viewing and in-platform forking under GitHub's Terms of
+Service, or separate express authorization, no permission is granted to
+reproduce, modify, redistribute, sublicense, commercially use, or publish
+derivative works based on the author's original contributions.
 
-引用项目时请明确署名 lvdacong，并链接至
-https://github.com/lvdacong/AUV-MADRL-Showcase 及所用版本。
-署名不自动替代所需的使用授权；不得删除原有权利声明或将他人贡献冒称原创。
+For reuse, contact the author at https://github.com/lvdacong to obtain
+written permission.
 
-第三方内容继续适用各自的许可与署名要求。本声明不限制第三方许可已经
-授予的权利，也不扩大作者对第三方内容的权利。参见 docs/THIRD_PARTY_NOTICES.md。
+When citing this project, credit lvdacong and link to
+https://github.com/lvdacong/AUV-MADRL-Showcase and the version used.
+Attribution alone does not replace any required permission. Do not remove
+existing rights notices or misrepresent another person's contributions as
+your own.
 
-本项目按现状提供，不作任何明示或暗示的质量、适用性或科研有效性保证。
-未授予任何专利权、商标权或他人的肖像、隐私等权利。
+Third-party content remains subject to its own licenses and attribution
+requirements. This declaration neither restricts rights granted by those
+licenses nor expands the author's rights over third-party content.
+See docs/THIRD_PARTY_NOTICES.md.
 
-This is a reservation of rights, not an open-source license. Except for uses
-permitted by applicable law, GitHub's Terms of Service, or separate written
-permission, no license is granted to reproduce, modify, redistribute,
-sublicense, commercially use, or publish derivative works of the author's
-original contributions. Attribution alone does not grant permission.
-Third-party materials retain their original licenses and rights.
-The project is provided AS IS, without warranties of any kind.
+The project is provided AS IS, without express or implied warranties of
+quality, fitness for a particular purpose, or scientific validity.
+No patent rights, trademark rights, or rights relating to another person's
+likeness or privacy are granted.

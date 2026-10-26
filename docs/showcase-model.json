@@ -322,7 +322,7 @@
     "circle_overlap": "allowed",
     "actor_placement": "area_uniform_task_regions"
   },
-  "recording": "docs/videos/06-三角色双阵营自博弈.mp4",
+  "recording": "docs/videos/06-three-role-two-team-self-play.mp4",
   "training_started_during_archiving": false,
   "limits": "An author-selected engineering demonstration, not evidence of convergence or generalization.",
   "source_code_revision_note": "Identifier of the author-selected original source snapshot; original Git history is not included in this showcase.",
